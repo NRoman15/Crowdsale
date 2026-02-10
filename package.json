@@ -1,7 +1,7 @@
 {
   "name": "crowdsale",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project showcases a Hardhat 3 Beta project using the native Node.js test runner (`node:test`) and the `viem` library for Ethereum interactions.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -41,6 +41,10 @@
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
-    "hardhat": "^2.10.1"
+    "hardhat": "^2.28.5"
+  },
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
   }
 }
