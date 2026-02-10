@@ -11,7 +11,7 @@ async function main() {
   const SYMBOL = "DAPP";
   const MAX_SUPPLY = "1000000";
   //const PRICE = ethers.utils.parseUnits("0.025", "ether");
-
+  
   // Deploy Token
   const Token = await hre.ethers.getContractFactory("Token");
   const token = await Token.deploy(NAME, SYMBOL, MAX_SUPPLY);
